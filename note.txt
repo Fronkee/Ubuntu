@@ -1,0 +1,30 @@
+=>  github plobrem
+
+=> kings site
+
+=> odoo 16 
+
+=> need to fix <====
+
+----> viber <----
+	
+    - chmod -x viber.deb
+    - sudo dpkg -i viber.deb
+	
+    if error, fix command
+    
+    - sudo apt install -f 
+
+=> install pgamdin4-Desktop <=
+
+    - curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add -
+
+   - sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/focal pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list' 
+
+   - sudo apt update
+	
+   - sudo apt install pgadmin4-desktop
+
+
+=== curl ifconfig.me
+=== hostname -I
