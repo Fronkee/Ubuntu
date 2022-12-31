@@ -41,3 +41,8 @@
 	-ssh-keygen -E md5 -lf ~/.ssh/id_rsa.pub
 	-cat ~/.ssh/id_rsa.pub
 
+        -git remote set-url origin git@github.com:Fronkee/Ubuntu.git
+	- git config credential.helper store
+        -git config credential.helper 'cache --timeout 7200'
+	- git config --global credential.helper credential.helper store
+	- git config --global credential.helper 'cache --timeout 7200'
