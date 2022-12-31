@@ -28,3 +28,16 @@
 
 === curl ifconfig.me
 === hostname -I
+
+
+    ******************** git ********************
+
+   ssh key generate
+	-git config user.name
+	-git config user.email
+
+	-ssh -v git@github.com
+	-ssh-keygen -t rsa -b 4096 -C hanwinaungsdg@gmail.com
+	-ssh-keygen -E md5 -lf ~/.ssh/id_rsa.pub
+	-cat ~/.ssh/id_rsa.pub
+
